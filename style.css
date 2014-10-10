@@ -55,7 +55,7 @@ img {
 /* Set the font family for the whole document, and add a background image */
 body {
 	font-family: "Droid Sans", arial;
-	background-image: url(background.jpg);
+	background-image: url(background.JPG);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
