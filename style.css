@@ -44,7 +44,6 @@ h5 {
 
 /* Put a border around the photo, set it to the right */
 img {
-	align: right;
 	border: 8px solid black;
 	border-radius: 45px;
 	box-shadow: 5px 5px 5px black;
