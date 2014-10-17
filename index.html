@@ -3,75 +3,96 @@
 <head>
   <title>Flobo del mar</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <!-- lookup of google font libraries -->
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Flobo del mar</h1>
-    <p>
-      <img src="flozebo.jpg" height="220">
-    </p>
-    <h2>Sea mammal</h2>
-    <h3>Galapagos, Ecuador</h3>
-    <div id="connect">
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:fschafer2015@kellogg.northwesternn.edu">Email</a></li>
-        <li><a href="http://flotografo.com">Website</a></li>
-        <li><a href="http://www.cafepress.com/fschafer/7118288">Graffiti Gear</a></li>
-      </ul>
+<div id="wrapper">   
+<div class="container">
+    <div class="row">
+      <div class="col-md-9">
+          <h1>Flobo del mar</h1>
+          <p>
+            <img src="flozebo.jpg" height="220">
+          </p>
+          <h2>Sea mammal</h2>
+          <h3>Galapagos, Ecuador</h3>
+      </div>
     </div>
-    <div id="summary"
-      <h4>Summary</h4>
-      <p>
-        Flobo is currently searching the world for the perfect turtle.  Following his current educational pursuits, he hopes to experience multiple close range turtle encounters with tutrles of unmatched beauty and grace.  He now lives outside of Chicago, where he is not seeing any turtles around.
-      </p>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="connect">
+          <h4>Connect With Me!</h4>
+          <ul>
+            <li><a href="mailto:fschafer2015@kellogg.northwesternn.edu">Email</a></li>
+            <li><a href="http://flotografo.com">Website</a></li>
+            <li><a href="http://www.cafepress.com/fschafer/7118288">Graffiti Gear</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div id="skills">
-      <h4>Skills</h4>
-      <ul>
-        <li>Looking for turtles</li>
-        <li>Swimming with turtles</li>
-        <li>Spotting turtles</li>
-      </ul>
+    <div class="row">
+      <div class="col-md-6">
+        <div id="summary">
+          <h4>Summary</h4>
+          <ul>
+          <li>Flobo is currently searching the world for the perfect turtle.  Following his current educational pursuits, he hopes to experience multiple close range turtle encounters with tutrles of unmatched beauty and grace.  He now lives outside of Chicago, where he is not seeing any turtles around.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div id="skills">
+          <h4>Skills</h4>
+          <ul>
+            <li>Looking for turtles</li>
+            <li>Swimming with turtles</li>
+            <li>Spotting turtles</li>
+          </ul>
+        </div>
+        <div id="hobbies">
+          <h4>Hobbies</h4>
+          <ul>
+            <li>Turtles</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div id="hobbies">
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Turtles</li>
-      </ul>
-    </div>
+  </div>
+
+
+    
    <div id="sightstats">
       <h4>Turtle Sighting Stats</h4>
     </div>
-  <table cellspacing="15">
+  <table class="table table-striped table-hover table-bordered">
     <tr>
-      <th>Year</th>
-        <th>Turtles Seen</th>
+      <th class="text-center">Year</th>
+      <th class="text-center">Turtles Seen</th>
     </tr>
     <tr>
       <td>2011</td>
-        <td>3</td>
+      <td>3</td>
     </tr>
-    <tr>
+    <tr class="danger">
       <td>2012</td>
-        <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <td>2013</td>
-        <td>3</td>
+      <td>3</td>
     </tr>
-    <tr>
+    <tr class="success">
       <td>2014</td>
-        <td>5</td>
+      <td>5</td>
     </tr>
   </table>
   </div>
-   <div id="footer">
+  <div id="footer">
     © 2014 Flobo Productions™ is a registered trademark of FDM Entertainment. Sue me, please.
   </div>
 </body>
