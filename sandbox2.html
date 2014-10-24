@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sandbox Form</title>
+  <meta charset="UTF-8">
+  <!-- make sure your style sheet lookups are in appropriate order, here you can see the custom style sheet coming after the bootstrap css to ensure you overwrite the standard css -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- font awesome css for font based icons -->
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- lookup of google font libraries -->
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<body>
+	<div class="form-group">
+		<h1> Gimme your deets!</h1>
+		<form action="http://learn.golearntocode.com/forms" method="get">
+		<!-- <form action="http://learn.golearntocode.com/forms" method="post"> -->
+			<div class="form-group">
+				<label for="soc">Give me your social, alright!?!?</label>
+				<input type="text" class="form-control" id="soc" name="soc" placeholder="XXX-XX-XXXX">
+			</div>
+			<div class="form-group">
+				<label for="title">And your mama's mama's name:</label>
+				<input type="text" class="form-control" id="mamasmama" name="mamasmama" placeholder="mama's mama">
+			</div>
+			<div class="form-group">
+				<label for="title">What street were you born on, dude?</label>
+				<textarea class="form-control" name= "addy" rows="2" placeholder="Easy St.">
+				</textarea>
+				<!-- <input type="text" class="form-control" id="title" name="title" placeholder="Lonely St."> -->
+			</div>
+			<div class="form-group">
+				<label for="title">Do you want to protect your identity?</label>
+				<input type="radio" class="form-control" name="options" id="optionsradio" value="Yes">
+				<i class="fa fa-users"></i>
+				<input type="radio" class="form-control" name="options" id="optionsradio2" value="No">
+				<i class="fa fa-cc-visa"></i>
+
+			</div>
+			<div class="form-group">
+				<label for="title">Do you want to protect your identity?</label>
+				<input type="radio" class="form-control" name="options" id="optionsradio" value="Yes, please">
+			</div>
+			<button type="submit" class="btn btn-lg btn-success">Send it now!</button>
+			<a href="#" class="btn btn-lg btn-danger">
+				<i class="fa fa-facebook-square"></i>  report me to facebook
+			</a>
+		</form>
+	</div>
+</body>
+
+

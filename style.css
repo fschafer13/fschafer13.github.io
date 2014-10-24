@@ -55,6 +55,7 @@ img {
 /* Set the font family for the whole document, and add a background image */
 body {
 	font-family: "Droid Sans", arial;
+	color: white;
 	background-image: url(background.JPG);
 	background-size: cover;
 	background-position: center center;
@@ -112,4 +113,16 @@ th {
 
 .jumbotron {
 	background-color: #53C5C5F;
+}
+
+button {
+	color: black;
+}
+
+div.form-group {
+	line-height: 30px;
+}
+
+input.form-control {
+	color: black;
 }
