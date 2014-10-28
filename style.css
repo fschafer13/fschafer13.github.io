@@ -47,7 +47,6 @@ img {
 	border: 8px solid black;
 	border-radius: 45px;
 	box-shadow: 5px 5px 5px black;
-	float: right;
 
 }
 
@@ -91,6 +90,9 @@ div#footer {
 	text-align: center;
 }
 
+.cannons {
+	color: red;
+}
 
 
 /*video rotation*/
@@ -114,7 +116,10 @@ th {
 
 .jumbotron {
 	background-color: #53C5C5F;
-	margin: 60px auto;
+}
+
+.container .jumbotron {
+	background-color: #53C5C5F;
 }
 
 button {
