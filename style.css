@@ -55,8 +55,8 @@ img {
 /* Set the font family for the whole document, and add a background image */
 body {
 	font-family: "Droid Sans", arial;
-	color: white;
-	background-image: url(background.JPG);
+	color: black;
+	background-image: url(back.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -84,7 +84,7 @@ div#wrapper {
 
 /* Make it so you can see the footer and center it */
 div#footer {
-	color: white;
+	color: black;
 	margin: 30px auto;
 	padding: 10px;
 	text-align: center;
