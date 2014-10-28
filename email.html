@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sandbox Form</title>
+  <title>Contact Me!!</title>
   <meta charset="UTF-8">
   <!-- make sure your style sheet lookups are in appropriate order, here you can see the custom style sheet coming after the bootstrap css to ensure you overwrite the standard css -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -49,19 +49,25 @@
 </nav>
 
 <body>
-  <div class="form-group">
-    <h1> Gimme your deets!</h1>
-    <form action="mailto:fschafer2015@kellogg.northwestern.edu" method="get">
-      <div class="form-group">
-        <label for="subject">What's this all about?</label>
-        <input type="text" class="form-control" id="subject" name="subject" placeholder="write your subject here">
-      </div>
-      <div class="form-group">
-        <label for="body">And how about the specifics?</label>
-        <textarea class="form-control" name="body" rows="2" placeholder="Tell me the details..."></textarea>
-      </div>
-      <button type="submit" class="btn btn-success">Send it now!</button>
-    </form>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="form-group">
+          <h1> Gimme your deets!</h1>
+          <form action="mailto:fschafer2015@kellogg.northwestern.edu" method="get">
+            <div class="form-group">
+              <label for="subject">What's this all about?</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="write your subject here">
+            </div>
+            <div class="form-group">
+              <label for="body">And how about the specifics?</label>
+              <textarea class="form-control" name="body" rows="2" placeholder="Tell me the details..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Send it now!</button>
+          </form>
+        </div>
+    </div>
+  </div>
   </div>
 </body>
 </html>

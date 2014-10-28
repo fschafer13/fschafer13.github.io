@@ -60,6 +60,7 @@ body {
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
+	margin: 60px auto;
 }
 
 /* Give the paragraphs and lists a 26px line height */
@@ -113,6 +114,7 @@ th {
 
 .jumbotron {
 	background-color: #53C5C5F;
+	margin: 60px auto;
 }
 
 button {
